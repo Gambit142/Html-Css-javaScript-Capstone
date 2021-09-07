@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "COCOGOOSE";
+    src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'COCOGOOSE-LETTERPRESS';
+    src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+  --coco: 'COCOGOOSE', Arial, sans-serif;
+  --letterpress: 'COCOGOOSE-LETTERPRESS', Arial, sans-serif;
+  --lato: 'Lato', Arial, sans-serif;
+}
+
+.fa {
+  color: #272a31;
+  font-size: 3.125rem;
+}
+
+#harmburger {
+  font-size: 2.5rem;
+  background-position: right;
+}
+
+.page-landing {
+  background-image: url('Images/mobile_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color {
+  /* background-image: url('Images/Cropped\ Ball.png'); */
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: right 25%;
+}
+
+.nav-bar {
+  background-color: #ec5242;
+}
+
+header {
+  margin-top: 4.4rem !important;
+}
+
+.welcome {
+  font-family: var(--letterpress);
+  color: #ec5242;
+}
+
+.title {
+  font-family: var(--coco);
+}
+
+.tournament-description {
+  border: 3px solid #fff;
+  background-color: #f9f9fa;
+  font-size: 0.88rem !important;
+}
+
+.tournament-description p {
+  font-family: var(--lato);
+}
+
+.header h1 {
+  background-image: url('Images/Cropped2.jpg');
+  background-position: bottom center;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 1.55rem !important;
+}
+
+.header h2 {
+  background-color: transparent;
+}
+
+.date {
+  font-size: 1.35rem;
+  font-family: var(--coco);
+}
+
+.venue {
+  font-family: var(--lato);
+}
+
+.main-program {
+  background-image: url('Images/Small-square.png');
+  padding: 2.25rem 0.75rem;
+}
+
+.danger {
+  height: 0.188rem !important;
+  width: 11.5%;
+  background-color: #ec5242;
+  margin: 0.75rem auto 1.5rem auto;
+  opacity: 1;
+}
+
+.highlights {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-ball::before {
+  content: "\f1e3";
+  font-size: 1.15rem;
+  color:#f9f9fa;
+}
+
+.icon-team::before {
+  content: "\f183";
+  font-size: 1.25rem;
+  color:#f9f9fa;
+}
+
+.icon-stadium::before {
+  content: "\f015";
+  font-size: 1.25rem;
+  color:#f9f9fa;
+}
+
+.highlight-iteration {
+  color: #ec5242;
+  font-size: 1.15rem;
+  font-family: var(--lato);
+}
+
+.highlight-iteration-text {
+  font-size: 0.88rem;
+  font-family: var(--lato);
+}
+
+.ticket-link {
+  background-color: #ec5242;
+  font-size: 1.35rem;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    text-decoration: none !important;
+  }
+
+  .desktop-nav {
+    padding: 0 !important;
+  }
+
+  .top-nav-bar {
+    background-color: #272a31;
+  }
+
+  .icon-facebook::before {
+    content: "\f09a";
+    color: #fff;
+    font: 0.81rem;
+  }
+
+  .icon-twitter {
+    content: "\f099";
+    color: #fff;
+    font: 0.81rem;
+  }
+
+  .top-nav-item {
+    font-size: 0.9125rem;
+    font-family: var(--lato);
+  }
+
+  .logo a {
+    background-image: url('Images/orange-background.jpeg');
+    background-position: bottom center;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: var(--coco);
+    font-size: 0.88rem;
+    text-indent: 0.44rem;
+  }
+
+  #arena {
+    font-family: var(--letterpress);
+    font-size: 1.25rem;
+    letter-spacing: 0.188rem;
+    line-height: 0 !important;
+  }
+
+  .links-container {
+    width: 65%;
+  }
+
+  .links-container a {
+    color: #062e8e !important;
+  }
+
+  .page-landing {
+    background-image: url('Images/Desktop-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    margin-top: 7.4rem !important;
+  }
+
+  header h1 {
+    word-break: break-all;
+  }
+
+  .ticket-link {
+    background-color: #272a31;
+    font-size: 1.15rem;
+  }
+}
