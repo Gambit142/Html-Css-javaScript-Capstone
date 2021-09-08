@@ -35,17 +35,17 @@
         <a href="#" class="text-white top-nav-item ms-4">Logout</a>
       </div>
     </div>
-    <div class="d-flex justify-content-between bg-white bottom-nav-bar px-5">
+    <div class="d-flex justify-content-between bg-white bottom-nav-bar py-2 px-5">
       <div class="d-flex flex-row text-wrap justify-content-center logo">
-        <a href="#">Gambit's<br><span class="text-center" id="arena">Arena</span></a>
+        <a href="./home.html">Gambit's<br><span class="text-center" id="arena">Arena</span></a>
       </div>
       <div class="d-flex justify-content-between align-items-center links-container">
-        <a href="#" class="items fw-bold">About</a>
+        <a href="./about.html" class="items fw-bold">About</a>
         <a href="#" class="items fw-bold">Teams</a>
         <a href="#" class="items fw-bold">Players</a>
         <a href="#" class="items fw-bold">Fixtures</a>
         <a href="#" class="items fw-bold">Tables</a>
-        <a href="#" class="items fw-bold">Latest News</a>
+        <a href="#" class="items orange-border py-2 px-3 fw-bold">Latest News</a>
       </div>
     </div>
   </nav>
@@ -53,8 +53,17 @@
     <div class="mx-3 mx-md-5 px-md-0"> 
       <div class="row color p-md-0">
         <nav class="d-md-none col-12 fixed-top nav-bar">
-          <a href="#"><i class="fa fa-bars" id="harmburger"></i></a>
+          <a href="#" id="hamburger"><i class="fa fa-bars"></i></a>
         </nav>
+        <div class="menu-hidden gap-5" id="mobile-menu">
+          <a href="#" class="align-self-end" id="close-icon"><i class="far fa-times-circle close"></i></a>
+          <a href="./about.html" class="menu-link text-decoration-none">About</a>
+          <a href="#" class="menu-link text-decoration-none">Teams</a>
+          <a href="#" class="menu-link text-decoration-none">Players</a>
+          <a href="#" class="menu-link text-decoration-none">Fixtures</a>
+          <a href="#" class="menu-link text-decoration-none">Tables</a>
+          <a href="#" class="menu-link text-decoration-none">Latest News</a>
+        </div>
         <header class="px-md-0">
           <hgroup class="header overflow-hidden">
             <h3 class="welcome fs-4 fw-normal">Welcome to:</h3>
@@ -117,5 +126,6 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous">
   </script>
+  <script src="menu.js"></script>
 </body>
 </html>
