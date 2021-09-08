@@ -42,7 +42,6 @@
 }
 
 .color {
-  /* background-image: url('Images/Cropped\ Ball.png'); */
   background-repeat: no-repeat;
   background-position: right;
   background-position: right 25%;
@@ -149,6 +148,89 @@ header {
   background-color: #ec5242;
   font-size: 1.35rem;
 }
+
+/* Styling for Mobile About section */
+
+.inquiry {
+  font-size: 0.81rem;
+  font-family: var(--lato);
+}
+
+.email-link {
+  color: #272a31;
+  font-family: var(--letterpress);
+  font-size: 0.78rem;
+  margin: 0 auto !important;
+}
+
+.logo a,
+.logo2 a {
+  background-image: url('Images/orange-background.jpeg');
+  background-position: bottom center;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-family: var(--coco);
+  font-size: 0.88rem;
+  text-indent: 0.44rem;
+}
+
+.logo2 a {
+  font-size: 1.5rem;
+  text-indent: 3.7rem;
+}
+
+#arena,
+#arena2,
+#arena3 {
+  font-family: var(--letterpress);
+  font-size: 1.25rem;
+  letter-spacing: 0.188rem;
+  line-height: 0 !important;
+}
+
+#arena2 {
+  font-size: 1.75rem;
+  letter-spacing: 0.70rem;
+}
+
+.past {
+  position: relative;
+  background-color: #ec5242;
+  margin: 0 3rem;
+}
+
+.past-champions {
+  width: 100%;
+  opacity: 0.48;
+  mix-blend-mode: multiply;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: var(--coco);
+  font-size: 1.75rem
+}
+
+.winners {
+  text-align: start;
+}
+
+.sponsors-div {
+  background-color: #272a31;
+}
+
+.sponsor-images {
+  width: 5.63rem;
+  filter: sepia(1) !important;
+}
+
 
 @media only screen and (min-width: 768px) {
   * {
