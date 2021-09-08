@@ -231,7 +231,6 @@ header {
   filter: sepia(1) !important;
 }
 
-
 @media only screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -259,7 +258,7 @@ header {
   }
 
   .top-nav-item {
-    font-size: 0.9125rem;
+    font-size: 0.7125rem;
     font-family: var(--lato);
   }
 
@@ -308,5 +307,27 @@ header {
   .ticket-link {
     background-color: #272a31;
     font-size: 1.15rem;
+  }
+
+  .image-container {
+    gap: 1.5rem !important;
+  }
+
+  .past {
+    margin: 0;
+  }
+
+  .footer-div {
+    gap: 1.15rem;
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .tournament-description {
+    padding: 2rem 4.5rem;
+  }
+
+  .inquiry {
+    padding: 2rem 5rem !important;
   }
 }
