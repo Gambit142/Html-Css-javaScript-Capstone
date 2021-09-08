@@ -30,7 +30,7 @@
   font-size: 3.125rem;
 }
 
-#harmburger {
+#hamburger {
   font-size: 2.5rem;
   background-position: right;
 }
@@ -52,7 +52,7 @@
 }
 
 header {
-  margin-top: 4.4rem !important;
+  margin-top: 6.4rem !important;
 }
 
 .welcome {
@@ -231,6 +231,41 @@ header {
   filter: sepia(1) !important;
 }
 
+/* Styling for mobile About Page ends here  */
+
+/* Styling for the Mobile Menu */
+
+.menu-hidden {
+  display: none;
+}
+
+.menu-content {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.88rem;
+  background-image: url("Images/mobile_bg.png");
+  background-size: cover;
+}
+
+.menu-link {
+  font-size: 1.5rem;
+  font-family: var(--letterpress);
+  color: #ec5242;
+  border-bottom: 5px solid #272a31;
+  padding: 15px 10px;
+}
+
+.close::before {
+  content: "\f057";
+  font-size: 30px;
+  color: #062e8e;
+}
+
 @media only screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -260,6 +295,10 @@ header {
   .top-nav-item {
     font-size: 0.7125rem;
     font-family: var(--lato);
+  }
+
+  .orange-border {
+    border: 3px solid #ec5242;
   }
 
   .logo a {
