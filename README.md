@@ -61,16 +61,21 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## Show your sup
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
+- 
 - Inspiration
 - etc
 
+Pinterest/nadyn.biz
+Pinterest/iLikewallpaper - All iPhone wallpapers avatar link
+Pinterest/iLikewallpaper - All iPhone wallpapers
+Pinterest/Giardiano
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
