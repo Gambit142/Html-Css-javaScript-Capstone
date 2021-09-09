@@ -149,6 +149,10 @@ header {
   font-size: 1.35rem;
 }
 
+.partner-header {
+  font-family: var(--coco);
+}
+
 /* Styling for Mobile About section */
 
 .inquiry {
@@ -266,6 +270,31 @@ header {
   color: #062e8e;
 }
 
+/* Styling for the mobile menu ends here */
+
+/* Styling for the Top Players Section */
+
+.img-player {
+  width: 100%;
+  height: 75%;
+}
+
+.player-name {
+  font-family: var(--coco);
+  font-size: 1.3rem !important;
+}
+
+.player-country {
+  font-family: var(--lato);
+  font-size: 1rem !important;
+  color: #ec5242;
+}
+
+.player-description {
+  font-size: 0.88rem !important;
+  font-family: var(--lato);
+}
+/* Styling for the Top Players Section ends here */
 @media only screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -368,5 +397,11 @@ header {
 
   .inquiry {
     padding: 2rem 5rem !important;
+  }
+
+  .footer-div-home {
+    gap: 1.15rem;
+    background-color: #fff;
+    color: #272a31;
   }
 }
