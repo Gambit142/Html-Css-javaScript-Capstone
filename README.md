@@ -68,7 +68,7 @@ Give a ⭐️ if you like this project!
 - **``Microverse``** for the opportunity to underatake such project using their platform
 - The original idea was that of **[Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)**
 - Although it is a capstone project, one of my major dream is to become a great software developer and I can only get better by undertaking such projects.
-- etc
+- To family and friends who motivated me throughout this project
 
 ## 📝 License
 

@@ -3,6 +3,7 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 @font-face {
@@ -219,7 +220,7 @@ header {
   transform: translate(-50%, -50%);
   color: #fff;
   font-family: var(--coco);
-  font-size: 1.75rem
+  font-size: 1.75rem;
 }
 
 .winners {
@@ -299,6 +300,7 @@ header {
   * {
     box-sizing: border-box;
     text-decoration: none !important;
+    cursor: pointer;
   }
 
   .desktop-nav {
