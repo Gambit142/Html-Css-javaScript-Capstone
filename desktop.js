@@ -45,7 +45,7 @@ function createPlayersProfile(superstar) {
       <div class="col-5"><img src=${superstar.images[0]} alt="Competition Top Player" class="img-player"></div>
       <div class="col-5 d-flex flex-column">
         <h3 class="player-name">${superstar.players[0]}</h3>
-        <p class="player-country fw-bold fst-italic">${superstar.clubs[0]}<br>Nigeria</p>
+        <p class="player-country fw-bold fst-italic">${superstar.clubs[0]}<br>${superstar.countries[0]}</p>
         <p class="player-description">${superstar.descriptions.detail1}</p>
       </div>
     </div>
@@ -53,7 +53,7 @@ function createPlayersProfile(superstar) {
       <div class="col-5 "><img src=${superstar.images[1]} alt="Competition Top Player" class="img-player"></div>
       <div class="col-5 d-flex flex-column">
         <h3 class="player-name">${superstar.players[1]}</h3>
-        <p class="player-country">${superstar.clubs[1]}<br>Nigeria</p>
+        <p class="player-country">${superstar.clubs[1]}<br>${superstar.countries[1]}</p>
         <p class="player-description">${superstar.descriptions.detail2}</p>
       </div>
     </div>
