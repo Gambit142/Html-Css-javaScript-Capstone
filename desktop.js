@@ -1,3 +1,4 @@
+// Create object to store data of top players
 const playersProfile = [
   {
     players: ['Skarra Ajibade', 'Bedrama Hassan'],
@@ -36,7 +37,7 @@ const playersProfile = [
     images: ['Images/Superstar-5.png', 'Images/Superstar-6.png'],
   },
 ];
-
+// Create the Top players section of the project dynamically using JavaScript
 console.log(playersProfile);
 function createPlayersProfile(superstar) {
     const profile = `
@@ -53,14 +54,14 @@ function createPlayersProfile(superstar) {
       <div class="col-5 "><img src=${superstar.images[1]} alt="Competition Top Player" class="img-player"></div>
       <div class="col-5 d-flex flex-column">
         <h3 class="player-name">${superstar.players[1]}</h3>
-        <p class="player-country">${superstar.clubs[1]}<br>${superstar.countries[1]}</p>
+        <p class="player-country fw-bold fst-italic">${superstar.clubs[1]}<br>${superstar.countries[1]}</p>
         <p class="player-description">${superstar.descriptions.detail2}</p>
       </div>
     </div>
   </div>`;
   return profile;
 }
-
+// Append the top player section to the DOM
 const profileContainer = document.getElementById('target-div');
 
 playersProfile.forEach((card) => {
