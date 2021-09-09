@@ -55,14 +55,14 @@
         <nav class="d-md-none col-12 fixed-top nav-bar">
           <a href="#" id="hamburger"><i class="fa fa-bars"></i></a>
         </nav>
-        <div class="menu-hidden gap-5" id="mobile-menu">
-          <a href="#" class="align-self-end" id="close-icon"><i class="far fa-times-circle close"></i></a>
-          <a href="./about.html" class="menu-link text-decoration-none">About</a>
-          <a href="#" class="menu-link text-decoration-none">Teams</a>
-          <a href="#" class="menu-link text-decoration-none">Players</a>
-          <a href="#" class="menu-link text-decoration-none">Fixtures</a>
-          <a href="#" class="menu-link text-decoration-none">Tables</a>
-          <a href="#" class="menu-link text-decoration-none">Latest News</a>
+        <div class="row menu-hidden gap-5" id="mobile-menu">
+          <a href="#" class="col-12 d-flex justify-content-end text-decoration-none" id="close-icon"><i class="far fa-times-circle close"></i></a>
+          <a href="./about.html" class="col-12 menu-link text-decoration-none">About</a>
+          <a href="#" class=" col-12 menu-link text-decoration-none">Teams</a>
+          <a href="#" class="col-12 menu-link text-decoration-none">Players</a>
+          <a href="#" class="ccol-12 menu-link text-decoration-none">Fixtures</a>
+          <a href="#" class="col-12 menu-link text-decoration-none">Tables</a>
+          <a href="#" class="col-12 menu-link text-decoration-none">Latest News</a>
         </div>
         <header class="px-md-0">
           <hgroup class="header overflow-hidden">
@@ -121,11 +121,39 @@
       <div class="d-none d-md-flex justify-content-center"><a class="tournament-link text-decoration-none p-4 text-white" href="#">See Tournament Details Here</a></div>
     </div>
   </section>
+  <section class=" mt-4 top-players">
+    <div class="players-div-header">
+      <h2 class="col-12 fs-5 fw-bolder title logo-header text-center">Top Players' Profile</h2>
+      <hr class="danger">
+    </div>
+    <div id="target-div"></div>
+  </section>
+  <section class="sponsors-div pt-3 d-none d-md-block">
+    <h2 class="text-light  fs-5 partner-header text-center">Partners & Sponsors</h2>
+    <hr class="danger">
+    <div class="d-flex flex-row justify-content-evenly me-2 align-items-center">
+      <div><img src="Images/Fifa.png" alt="Fifa Logo" class="sponsor-images"></div>
+      <div><img src="Images/Konami.png" alt="Konami Logo" class="sponsor-images"></div>
+      <div><img src="Images/Playstation.png" alt="Playstation Logo" class="sponsor-images"></div>
+      <div><img src="Images/EA-SPORT.png" alt="EA-SPORT Logo" class="sponsor-images"></div>
+      <div><img src="Images/google.png" alt="Google Logo" class="sponsor-images"></div>
+    </div>
+  </section>
+  <footer class="row d-none d-md-flex justify-content-around 
+  align-items-center justify-content-md-center py-4 footer-div-home">
+    <div class="col-md-4 d-flex flex-row text-wrap justify-content-center logo">
+      <a href="#">Gambit's<br><span class="text-center" id="arena3">Arena</span></a>
+  </div>
+  <div class="col-md-4">
+    <small>&#169; 2021 Gambit's Sports Company<br>Some Rights Reserved</small>
+  </div>
+</footer>
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous">
   </script>
   <script src="menu.js"></script>
+  <script src="desktop.js"></script>
 </body>
 </html>
