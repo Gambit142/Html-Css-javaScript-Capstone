@@ -1,8 +1,8 @@
 const hamburgerButton = document.querySelector('#hamburger');
 function displayMobileMenu() {
   const mobileMenuDiv = document.querySelector('.menu-hidden');
-    mobileMenuDiv.classList.add('menu-content');
-    hamburgerButton.style.display = 'none';
+  mobileMenuDiv.classList.add('menu-content');
+  hamburgerButton.style.display = 'none';
 }
 
 hamburgerButton.addEventListener('click', displayMobileMenu);
