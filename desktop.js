@@ -1,8 +1,8 @@
 // Create object to store data of top players
 const playersProfile = [
   {
-  players: ['Skarra Ajibade', 'Bedrama Hassan'],
-  clubs: ['96 Champions Fc', 'El-Grinada Fc'],
+    players: ['Skarra Ajibade', 'Bedrama Hassan'],
+    clubs: ['96 Champions Fc', 'El-Grinada Fc'],
     countries: ['Nigeria', 'Egypt'],
     descriptions: {
       detail1: `Skarra has been the tournament's most proficient goal scorer since its inception. 
