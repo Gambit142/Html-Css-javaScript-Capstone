@@ -18,7 +18,7 @@
 
 - The Top Players's section for bothwas created dynamically using JavaScript
 
-- More details about the project can be seen in this [video](https://www.loom.com/share/121e36323e9d4d139c96aa83ab6e8612) 
+- More details about the project can be seen in this [video](https://loom.com/share/80c01e82693b4d49b8259cb478d3b150) 
 
 ## Built With
 
