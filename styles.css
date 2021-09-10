@@ -7,23 +7,23 @@
 }
 
 @font-face {
-    font-family: "COCOGOOSE";
-    src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "COCOGOOSE";
+  src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'COCOGOOSE-LETTERPRESS';
-    src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'COCOGOOSE-LETTERPRESS';
+  src: url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.svg#COCOGOOSE-LETTERPRESS") format("svg"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot"), url("../webfonts_COCOGOOSE-LETTERPRESS/COCOGOOSE-LETTERPRESS.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
-  --coco: 'COCOGOOSE', Arial, sans-serif;
-  --letterpress: 'COCOGOOSE-LETTERPRESS', Arial, sans-serif;
-  --lato: 'Lato', Arial, sans-serif;
+  --coco: 'COCOGOOSE', 'arial', sans-serif;
+  --letterpress: 'COCOGOOSE-LETTERPRESS', 'arial', sans-serif;
+  --lato: 'Lato', 'arial', sans-serif;
 }
 
 .fa {
@@ -79,7 +79,6 @@ header {
   background-image: url('Images/Cropped2.jpg');
   background-position: bottom center;
   background-size: contain;
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
@@ -119,19 +118,19 @@ header {
 .icon-ball::before {
   content: "\f1e3";
   font-size: 1.15rem;
-  color:#f9f9fa;
+  color: #f9f9fa;
 }
 
 .icon-team::before {
   content: "\f183";
   font-size: 1.25rem;
-  color:#f9f9fa;
+  color: #f9f9fa;
 }
 
 .icon-stadium::before {
   content: "\f015";
   font-size: 1.25rem;
-  color:#f9f9fa;
+  color: #f9f9fa;
 }
 
 .highlight-iteration {
@@ -173,7 +172,6 @@ header {
   background-image: url('Images/orange-background.jpeg');
   background-position: bottom center;
   background-size: contain;
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
@@ -198,7 +196,7 @@ header {
 
 #arena2 {
   font-size: 1.75rem;
-  letter-spacing: 0.70rem;
+  letter-spacing: 0.7rem;
 }
 
 .past {
@@ -295,7 +293,9 @@ header {
   font-size: 0.88rem !important;
   font-family: var(--lato);
 }
+
 /* Styling for the Top Players Section ends here */
+
 @media only screen and (min-width: 768px) {
   * {
     box-sizing: border-box;
@@ -314,13 +314,13 @@ header {
   .icon-facebook::before {
     content: "\f09a";
     color: #fff;
-    font: 0.81rem;
+    font-size: 0.81rem;
   }
 
   .icon-twitter {
     content: "\f099";
     color: #fff;
-    font: 0.81rem;
+    font-size: 0.81rem;
   }
 
   .top-nav-item {
@@ -336,7 +336,6 @@ header {
     background-image: url('Images/orange-background.jpeg');
     background-position: bottom center;
     background-size: contain;
-    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;

@@ -7,8 +7,7 @@ const playersProfile = [
     descriptions: {
       detail1: `Skarra has been the tournament's most proficient goal scorer since its inception. 
     He has 25caps and 34 goals in his name`,
-      detail2: `Tagged the 'Xavi' of 5-A-SIDE tournament, Bedrama has a pass complete rate of 94% and 
-        82 assists in this competition since inception`,
+      detail2: `Tagged the 'Xavi' of 5-A-SIDE tournament, Bedrama has a pass complete rate of 94% and 82 assists in this competition since inception`,
     },
     images: ['Images/Superstar-1.png', 'Images/Superstar-2.png'],
   },
@@ -38,10 +37,8 @@ const playersProfile = [
   },
 ];
 // Create the Top players section of the project dynamically using JavaScript
-console.log(playersProfile);
 function createPlayersProfile(superstar) {
-    const profile = `
-  <div class="row col-md-12 players-info-container d-flex flex-column d-md-flex flex-md-row ">
+    const profile = `<div class="row col-md-12 players-info-container d-flex flex-column d-md-flex flex-md-row ">
     <div class="col-12 gap-4 mt-3 d-flex justify-content-center flex-row col-md-6">
       <div class="col-5"><img src=${superstar.images[0]} alt="Competition Top Player" class="img-player"></div>
       <div class="col-5 d-flex flex-column">
@@ -66,6 +63,4 @@ const profileContainer = document.getElementById('target-div');
 
 playersProfile.forEach((card) => {
   profileContainer.innerHTML += createPlayersProfile(card);
-})
-
-
+});
