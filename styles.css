@@ -303,6 +303,14 @@ header {
     cursor: pointer;
   }
 
+  a:hover {
+    color: #ec5242 !important;
+  }
+
+  a:focus {
+    color: #ec5242 !important;
+  }
+
   .desktop-nav {
     padding: 0 !important;
   }
@@ -357,6 +365,27 @@ header {
 
   .links-container a {
     color: #d3d3d3 !important;
+  }
+
+  .links-container a:link {
+    color: #ec5242 !important;
+  }
+
+  .links-container a:hover {
+    color: #ec5242 !important;
+    border: 3px solid #ec5242 !important;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+  }
+
+  .links-container a:focus {
+    color: #ec5242 !important;
+    border: 3px solid #ec5242 !important;
+  }
+
+  .links-container a:active {
+    color: #ec5242 !important;
+    border: 3px solid #ec5242 !important;
   }
 
   .page-landing {
